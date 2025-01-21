@@ -1,0 +1,21 @@
+:host {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Asegúrate de que la cabecera quede encima de otros contenidos */
+    width: 100%;
+    background-color: white; /* Color de fondo para evitar que se vea a través de la cabecera */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra para darle un efecto de profundidad */
+}
+
+.cabecera {
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: lightcyan;
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+}

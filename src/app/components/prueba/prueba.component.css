@@ -1,0 +1,11 @@
+app-cabecera {
+    position: sticky;
+    top: 0;
+    background: red;
+}
+
+p {
+    color: navy;
+    background: rgb(244, 240, 236);
+    text-align: center;
+}
